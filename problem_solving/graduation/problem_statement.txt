@@ -1,0 +1,34 @@
+========================
+
+In a university, your attendance determines whether you will be allowed to attend your graduation ceremony. You are not allowed to miss classes for three or more consecutive days. For example, if you miss a class today and tomorrow, then you must attend it the day after. Your graduation ceremony is on the last day of the academic year, which is the Nth day.
+
+Your task is to determine the following:
+
+The number of ways to attend classes over N days.
+The probability that you will miss your graduation ceremony.
+Note
+
+Probability = (No. of ways of being absent at the ceremony) / (Total no. of ways to attend classes over N days)
+
+=============
+Input format:
+=============
+
+The first and the only line of input contains an integer  denoting the number of days.
+
+==============
+Output format:
+==============
+
+You are required to print the following in a new line:
+
+The number of ways to attend classes over N days.
+The probability that you will miss your graduation ceremony.
+
+Sample Input:
+============
+5
+
+Sample Output:
+=============
+(24,11/24)
